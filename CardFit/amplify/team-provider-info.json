@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cardfit-dev-8420b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::920372990771:role/amplify-cardfit-dev-8420b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::920372990771:role/amplify-cardfit-dev-8420b-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cardfit-dev-8420b-deployment",
+      "UnauthRoleName": "amplify-cardfit-dev-8420b-unauthRole",
+      "StackName": "amplify-cardfit-dev-8420b",
+      "StackId": "arn:aws:cloudformation:us-east-1:920372990771:stack/amplify-cardfit-dev-8420b/4c9cbb00-d06c-11ef-9431-0affe69900f7",
+      "AmplifyAppId": "d2m5erl77cvomt"
+    },
+    "categories": {
+      "auth": {
+        "cardfita9d2614a": {}
+      }
+    }
+  }
+}
