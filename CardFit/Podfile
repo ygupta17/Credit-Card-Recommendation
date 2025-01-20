@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'CardFit' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CardFit
+  pod 'Amplify', '~> 2.0.0'  # AWS Amplify
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin', '~> 2.0.0'  # Auth plugin
+  pod 'AmplifyPlugins/AWSAPIPlugin', '~> 2.0.0'  # API plugin
+
+end
