@@ -1,24 +1,26 @@
-import SwiftUI
 import Amplify
 import AWSCognitoAuthPlugin
+import SwiftUI
 
 @main
 struct CardFitApp: App {
     init() {
-        // Initialize Amplify when the app starts
-        do {
-            // Add the Auth plugin to Amplify
-            try Amplify.add(plugin: AWSCognitoAuthPlugin())
-            try Amplify.configure()
-            print("Amplify configured successfully.")
-        } catch {
-            print("Error configuring Amplify: \(error)")
-        }
+        configureAmplify()
     }
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView() // Your ContentView
+            LoginView()
+        }
+    }
+    
+    private func configureAmplify() {
+        do {
+            try Amplify.add(plugin: AWSCognitoAuthPlugin())
+            try Amplify.configure()
+            print("Amplify configured with auth plugin")
+        } catch {
+            print("Failed to initialize Amplify: \(error)")
         }
     }
 }

@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		645182519AE4598D5D04B882 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0359149C8E6F73DEF54CA96C /* amplifyconfiguration.json */; };
+		CF29C0201F20A7EC375E6D87 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B6EDB3E43B8DC75D1E353EF8 /* awsconfiguration.json */; };
 		D32608832CFCCE99008F10C9 /* CardFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32608822CFCCE99008F10C9 /* CardFitApp.swift */; };
-		D32608852CFCCE99008F10C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32608842CFCCE99008F10C9 /* ContentView.swift */; };
+		D32608852CFCCE99008F10C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32608842CFCCE99008F10C9 /* LoginView.swift */; };
 		D32608872CFCCE9A008F10C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32608862CFCCE9A008F10C9 /* Assets.xcassets */; };
 		D326088A2CFCCE9A008F10C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32608892CFCCE9A008F10C9 /* Preview Assets.xcassets */; };
 		D32608942CFCCE9B008F10C9 /* CardFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32608932CFCCE9B008F10C9 /* CardFitTests.swift */; };
 		D326089E2CFCCE9B008F10C9 /* CardFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326089D2CFCCE9B008F10C9 /* CardFitUITests.swift */; };
 		D32608A02CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326089F2CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift */; };
+		D381D52D2D4594530054D84E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D52C2D4594510054D84E /* ForgotPasswordView.swift */; };
+		D381D52F2D4596840054D84E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D52E2D45967E0054D84E /* CreateAccountView.swift */; };
 		D38325BD2D3F1E08000E0A19 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BC2D3F1E08000E0A19 /* AWSAPIPlugin */; };
 		D38325BF2D3F1E08000E0A19 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BE2D3F1E08000E0A19 /* AWSCognitoAuthPlugin */; };
 		D38325C12D3F1E08000E0A19 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325C02D3F1E08000E0A19 /* AWSDataStorePlugin */; };
@@ -42,9 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0359149C8E6F73DEF54CA96C /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		B6EDB3E43B8DC75D1E353EF8 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		D326087F2CFCCE99008F10C9 /* CardFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32608822CFCCE99008F10C9 /* CardFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFitApp.swift; sourceTree = "<group>"; };
-		D32608842CFCCE99008F10C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D32608842CFCCE99008F10C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D32608862CFCCE9A008F10C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32608892CFCCE9A008F10C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D326088F2CFCCE9B008F10C9 /* CardFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +58,8 @@
 		D32608992CFCCE9B008F10C9 /* CardFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D326089D2CFCCE9B008F10C9 /* CardFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFitUITests.swift; sourceTree = "<group>"; };
 		D326089F2CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D381D52C2D4594510054D84E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		D381D52E2D45967E0054D84E /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		751D23450DF25F1197DFE0B1 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B6EDB3E43B8DC75D1E353EF8 /* awsconfiguration.json */,
+				0359149C8E6F73DEF54CA96C /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
 		D32608762CFCCE99008F10C9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +111,7 @@
 				D32608922CFCCE9B008F10C9 /* CardFitTests */,
 				D326089C2CFCCE9B008F10C9 /* CardFitUITests */,
 				D32608802CFCCE99008F10C9 /* Products */,
+				751D23450DF25F1197DFE0B1 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +128,10 @@
 		D32608812CFCCE99008F10C9 /* CardFit */ = {
 			isa = PBXGroup;
 			children = (
+				D381D52E2D45967E0054D84E /* CreateAccountView.swift */,
+				D381D52C2D4594510054D84E /* ForgotPasswordView.swift */,
 				D32608822CFCCE99008F10C9 /* CardFitApp.swift */,
-				D32608842CFCCE99008F10C9 /* ContentView.swift */,
+				D32608842CFCCE99008F10C9 /* LoginView.swift */,
 				D32608862CFCCE9A008F10C9 /* Assets.xcassets */,
 				D32608882CFCCE9A008F10C9 /* Preview Content */,
 			);
@@ -252,6 +272,8 @@
 			files = (
 				D326088A2CFCCE9A008F10C9 /* Preview Assets.xcassets in Resources */,
 				D32608872CFCCE9A008F10C9 /* Assets.xcassets in Resources */,
+				CF29C0201F20A7EC375E6D87 /* awsconfiguration.json in Resources */,
+				645182519AE4598D5D04B882 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32608852CFCCE99008F10C9 /* ContentView.swift in Sources */,
+				D381D52D2D4594530054D84E /* ForgotPasswordView.swift in Sources */,
+				D32608852CFCCE99008F10C9 /* LoginView.swift in Sources */,
+				D381D52F2D4596840054D84E /* CreateAccountView.swift in Sources */,
 				D32608832CFCCE99008F10C9 /* CardFitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
