@@ -18,6 +18,20 @@
 		D32608A02CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D326089F2CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift */; };
 		D381D52D2D4594530054D84E /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D52C2D4594510054D84E /* ForgotPasswordView.swift */; };
 		D381D52F2D4596840054D84E /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D52E2D45967E0054D84E /* CreateAccountView.swift */; };
+		D381D5322D62C5170054D84E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5312D62C5170054D84E /* Auth */; };
+		D381D5342D62C5170054D84E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5332D62C5170054D84E /* Functions */; };
+		D381D5362D62C5170054D84E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5352D62C5170054D84E /* PostgREST */; };
+		D381D5382D62C5170054D84E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5372D62C5170054D84E /* Realtime */; };
+		D381D53A2D62C5170054D84E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5392D62C5170054D84E /* Storage */; };
+		D381D53C2D62C5170054D84E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D381D53B2D62C5170054D84E /* Supabase */; };
+		D381D53E2D62C5830054D84E /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D53D2D62C57B0054D84E /* Supabase.swift */; };
+		D381D5402D62C7A90054D84E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D381D53F2D62C7A90054D84E /* Auth */; };
+		D381D5422D62C7A90054D84E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5412D62C7A90054D84E /* Functions */; };
+		D381D5442D62C7A90054D84E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5432D62C7A90054D84E /* PostgREST */; };
+		D381D5462D62C7A90054D84E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5452D62C7A90054D84E /* Realtime */; };
+		D381D5482D62C7A90054D84E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5472D62C7A90054D84E /* Storage */; };
+		D381D54A2D62C7A90054D84E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5492D62C7A90054D84E /* Supabase */; };
+		D381D54C2D62CAB60054D84E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D54B2D62CAB10054D84E /* ContentView.swift */; };
 		D38325BD2D3F1E08000E0A19 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BC2D3F1E08000E0A19 /* AWSAPIPlugin */; };
 		D38325BF2D3F1E08000E0A19 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BE2D3F1E08000E0A19 /* AWSCognitoAuthPlugin */; };
 		D38325C12D3F1E08000E0A19 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325C02D3F1E08000E0A19 /* AWSDataStorePlugin */; };
@@ -60,6 +74,8 @@
 		D326089F2CFCCE9B008F10C9 /* CardFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D381D52C2D4594510054D84E /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		D381D52E2D45967E0054D84E /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		D381D53D2D62C57B0054D84E /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		D381D54B2D62CAB10054D84E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D381D54A2D62C7A90054D84E /* Supabase in Frameworks */,
+				D381D53C2D62C5170054D84E /* Supabase in Frameworks */,
+				D381D5342D62C5170054D84E /* Functions in Frameworks */,
+				D381D5482D62C7A90054D84E /* Storage in Frameworks */,
+				D381D5422D62C7A90054D84E /* Functions in Frameworks */,
 				D38325C52D3F1EAB000E0A19 /* AWSAPIPlugin in Frameworks */,
 				D38325CB2D3F1EAB000E0A19 /* Amplify in Frameworks */,
+				D381D5382D62C5170054D84E /* Realtime in Frameworks */,
+				D381D5322D62C5170054D84E /* Auth in Frameworks */,
 				D38325C12D3F1E08000E0A19 /* AWSDataStorePlugin in Frameworks */,
 				D38325C32D3F1E08000E0A19 /* Amplify in Frameworks */,
+				D381D5462D62C7A90054D84E /* Realtime in Frameworks */,
+				D381D5402D62C7A90054D84E /* Auth in Frameworks */,
+				D381D5362D62C5170054D84E /* PostgREST in Frameworks */,
 				D38325BD2D3F1E08000E0A19 /* AWSAPIPlugin in Frameworks */,
+				D381D53A2D62C5170054D84E /* Storage in Frameworks */,
+				D381D5442D62C7A90054D84E /* PostgREST in Frameworks */,
 				D38325BF2D3F1E08000E0A19 /* AWSCognitoAuthPlugin in Frameworks */,
 				D38325C72D3F1EAB000E0A19 /* AWSCognitoAuthPlugin in Frameworks */,
 				D38325C92D3F1EAB000E0A19 /* AWSDataStorePlugin in Frameworks */,
@@ -128,6 +156,8 @@
 		D32608812CFCCE99008F10C9 /* CardFit */ = {
 			isa = PBXGroup;
 			children = (
+				D381D54B2D62CAB10054D84E /* ContentView.swift */,
+				D381D53D2D62C57B0054D84E /* Supabase.swift */,
 				D381D52E2D45967E0054D84E /* CreateAccountView.swift */,
 				D381D52C2D4594510054D84E /* ForgotPasswordView.swift */,
 				D32608822CFCCE99008F10C9 /* CardFitApp.swift */,
@@ -253,6 +283,7 @@
 			mainGroup = D32608762CFCCE99008F10C9;
 			packageReferences = (
 				D383256F2D3F101F000E0A19 /* XCRemoteSwiftPackageReference "amplify-ios" */,
+				D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = D32608802CFCCE99008F10C9 /* Products */;
 			projectDirPath = "";
@@ -298,7 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D381D53E2D62C5830054D84E /* Supabase.swift in Sources */,
 				D381D52D2D4594530054D84E /* ForgotPasswordView.swift in Sources */,
+				D381D54C2D62CAB60054D84E /* ContentView.swift in Sources */,
 				D32608852CFCCE99008F10C9 /* LoginView.swift in Sources */,
 				D381D52F2D4596840054D84E /* CreateAccountView.swift in Sources */,
 				D32608832CFCCE99008F10C9 /* CardFitApp.swift in Sources */,
@@ -622,6 +655,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
 		D383256F2D3F101F000E0A19 /* XCRemoteSwiftPackageReference "amplify-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aws-amplify/amplify-ios";
@@ -633,6 +674,66 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D381D5312D62C5170054D84E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D381D5332D62C5170054D84E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		D381D5352D62C5170054D84E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		D381D5372D62C5170054D84E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		D381D5392D62C5170054D84E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D381D53B2D62C5170054D84E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		D381D53F2D62C7A90054D84E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D381D5412D62C7A90054D84E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		D381D5432D62C7A90054D84E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		D381D5452D62C7A90054D84E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		D381D5472D62C7A90054D84E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D381D5492D62C7A90054D84E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
 		D38325BC2D3F1E08000E0A19 /* AWSAPIPlugin */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D383256F2D3F101F000E0A19 /* XCRemoteSwiftPackageReference "amplify-ios" */;
