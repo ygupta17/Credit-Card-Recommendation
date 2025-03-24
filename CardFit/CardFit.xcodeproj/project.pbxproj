@@ -32,6 +32,14 @@
 		D381D5482D62C7A90054D84E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5472D62C7A90054D84E /* Storage */; };
 		D381D54A2D62C7A90054D84E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5492D62C7A90054D84E /* Supabase */; };
 		D381D54C2D62CAB60054D84E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D54B2D62CAB10054D84E /* ContentView.swift */; };
+		D381D54E2D7FB1FF0054D84E /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = D381D54D2D7FB1FF0054D84E /* Auth */; };
+		D381D5502D7FB1FF0054D84E /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = D381D54F2D7FB1FF0054D84E /* Functions */; };
+		D381D5522D7FB1FF0054D84E /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5512D7FB1FF0054D84E /* PostgREST */; };
+		D381D5542D7FB1FF0054D84E /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5532D7FB1FF0054D84E /* Realtime */; };
+		D381D5562D7FB1FF0054D84E /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5552D7FB1FF0054D84E /* Storage */; };
+		D381D5582D7FB1FF0054D84E /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = D381D5572D7FB1FF0054D84E /* Supabase */; };
+		D381D55B2D864CA70054D84E /* BankConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D55A2D864CA70054D84E /* BankConnectionView.swift */; };
+		D381D55D2D864CC40054D84E /* PlaidManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D381D55C2D864CC40054D84E /* PlaidManager.swift */; };
 		D38325BD2D3F1E08000E0A19 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BC2D3F1E08000E0A19 /* AWSAPIPlugin */; };
 		D38325BF2D3F1E08000E0A19 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325BE2D3F1E08000E0A19 /* AWSCognitoAuthPlugin */; };
 		D38325C12D3F1E08000E0A19 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = D38325C02D3F1E08000E0A19 /* AWSDataStorePlugin */; };
@@ -76,6 +84,8 @@
 		D381D52E2D45967E0054D84E /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		D381D53D2D62C57B0054D84E /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
 		D381D54B2D62CAB10054D84E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D381D55A2D864CA70054D84E /* BankConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankConnectionView.swift; sourceTree = "<group>"; };
+		D381D55C2D864CC40054D84E /* PlaidManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaidManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,8 @@
 				D381D54A2D62C7A90054D84E /* Supabase in Frameworks */,
 				D381D53C2D62C5170054D84E /* Supabase in Frameworks */,
 				D381D5342D62C5170054D84E /* Functions in Frameworks */,
+				D381D5542D7FB1FF0054D84E /* Realtime in Frameworks */,
+				D381D5522D7FB1FF0054D84E /* PostgREST in Frameworks */,
 				D381D5482D62C7A90054D84E /* Storage in Frameworks */,
 				D381D5422D62C7A90054D84E /* Functions in Frameworks */,
 				D38325C52D3F1EAB000E0A19 /* AWSAPIPlugin in Frameworks */,
@@ -93,6 +105,9 @@
 				D381D5382D62C5170054D84E /* Realtime in Frameworks */,
 				D381D5322D62C5170054D84E /* Auth in Frameworks */,
 				D38325C12D3F1E08000E0A19 /* AWSDataStorePlugin in Frameworks */,
+				D381D5582D7FB1FF0054D84E /* Supabase in Frameworks */,
+				D381D5502D7FB1FF0054D84E /* Functions in Frameworks */,
+				D381D5562D7FB1FF0054D84E /* Storage in Frameworks */,
 				D38325C32D3F1E08000E0A19 /* Amplify in Frameworks */,
 				D381D5462D62C7A90054D84E /* Realtime in Frameworks */,
 				D381D5402D62C7A90054D84E /* Auth in Frameworks */,
@@ -100,6 +115,7 @@
 				D38325BD2D3F1E08000E0A19 /* AWSAPIPlugin in Frameworks */,
 				D381D53A2D62C5170054D84E /* Storage in Frameworks */,
 				D381D5442D62C7A90054D84E /* PostgREST in Frameworks */,
+				D381D54E2D7FB1FF0054D84E /* Auth in Frameworks */,
 				D38325BF2D3F1E08000E0A19 /* AWSCognitoAuthPlugin in Frameworks */,
 				D38325C72D3F1EAB000E0A19 /* AWSCognitoAuthPlugin in Frameworks */,
 				D38325C92D3F1EAB000E0A19 /* AWSDataStorePlugin in Frameworks */,
@@ -156,6 +172,8 @@
 		D32608812CFCCE99008F10C9 /* CardFit */ = {
 			isa = PBXGroup;
 			children = (
+				D381D55C2D864CC40054D84E /* PlaidManager.swift */,
+				D381D55A2D864CA70054D84E /* BankConnectionView.swift */,
 				D381D54B2D62CAB10054D84E /* ContentView.swift */,
 				D381D53D2D62C57B0054D84E /* Supabase.swift */,
 				D381D52E2D45967E0054D84E /* CreateAccountView.swift */,
@@ -331,7 +349,9 @@
 			files = (
 				D381D53E2D62C5830054D84E /* Supabase.swift in Sources */,
 				D381D52D2D4594530054D84E /* ForgotPasswordView.swift in Sources */,
+				D381D55D2D864CC40054D84E /* PlaidManager.swift in Sources */,
 				D381D54C2D62CAB60054D84E /* ContentView.swift in Sources */,
+				D381D55B2D864CA70054D84E /* BankConnectionView.swift in Sources */,
 				D32608852CFCCE99008F10C9 /* LoginView.swift in Sources */,
 				D381D52F2D4596840054D84E /* CreateAccountView.swift in Sources */,
 				D32608832CFCCE99008F10C9 /* CardFitApp.swift in Sources */,
@@ -730,6 +750,36 @@
 			productName = Storage;
 		};
 		D381D5492D62C7A90054D84E /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		D381D54D2D7FB1FF0054D84E /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		D381D54F2D7FB1FF0054D84E /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		D381D5512D7FB1FF0054D84E /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		D381D5532D7FB1FF0054D84E /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		D381D5552D7FB1FF0054D84E /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		D381D5572D7FB1FF0054D84E /* Supabase */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D381D5302D62C5170054D84E /* XCRemoteSwiftPackageReference "supabase-swift" */;
 			productName = Supabase;

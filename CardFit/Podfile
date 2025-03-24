@@ -9,5 +9,6 @@ target 'CardFit' do
   pod 'Amplify', '~> 2.0.0'  # AWS Amplify
   pod 'AmplifyPlugins/AWSCognitoAuthPlugin', '~> 2.0.0'  # Auth plugin
   pod 'AmplifyPlugins/AWSAPIPlugin', '~> 2.0.0'  # API plugin
+  pod 'Plaid', '~> 4.0'  # Plaid Link iOS SDK
 
 end
